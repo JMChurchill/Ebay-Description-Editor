@@ -14,7 +14,13 @@ include_once "header.php";
     <a href="javascript:void(0)" onclick="format('insertunorderedlist')"><span class="fa fa-list fa-fw" style="color: black"></span></a>
 
 </div>
+<div class="editor" id="editorText" contenteditable="true"></div>
 
-<div class="editor" contenteditable="true">
+<div>
+    <h2>Paste into html description</h2>
+    <div class="editor" id="htmlOut"></div>
 </div>
+
+
+
 </body>
