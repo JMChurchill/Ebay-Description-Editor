@@ -11,8 +11,10 @@ include_once "header.php";
 <div class="sample-toolbar">
     <a href="javascript:void(0)" onclick="format('bold')"><span class="fas fa-bold" style="color: black"></span></a>
     <a href="javascript:void(0)" onclick="format('italic')"><span class="fa fa-italic fa-fw" style="color: black"></span></a>
+    <a href="javascript:void(0)" onclick="format('underline')"><span class="fas fa-underline" style="color: black"></span></a>
     <a href="javascript:void(0)" onclick="format('insertunorderedlist')"><span class="fa fa-list fa-fw" style="color: black"></span></a>
-<!--    colour select dropDown-->
+    <a href="javascript:void(0)" onclick="format('insertorderedlist')"><span class="fas fa-list-ol" style="color: black"></span></a>
+    <!--    colour select dropDown-->
     <div class="dropdown">
         <button class="dropbtn"><span class="fas fa-tint" id="selectColour" style="color: black"><span class="fa fa-caret-down" style="color: black"></span></button>
         <div class="dropdown-content">
