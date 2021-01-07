@@ -18,8 +18,6 @@
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="data.php">Data</a></li>
         </ul>
     </nav>
     <label for="nav-toggle" class="nav-toggle-label">
