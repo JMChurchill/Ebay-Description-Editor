@@ -15,7 +15,16 @@ include_once "header.php";
     <a href="javascript:void(0)" onclick="format('insertunorderedlist')"><span class="fa fa-list fa-fw" style="color: black"></span></a>
     <a href="javascript:void(0)" onclick="format('insertorderedlist')"><span class="fas fa-list-ol" style="color: black"></span></a>
 
+<!--    font select-->
+    <select id="fontName" onchange="format('FontName');" style="font-size: 20px">
+        <optgroup style="font-size: 20px">
+            <option value="Arial">Arial</option>
+            <option selected="selected" value="Calibri">Calibri</option>
+            <option value="Comic Sans MS">Comic Sans MS</option>
+        </optgroup>
+    </select>
 
+<!--    font size select-->
         Size:
     <select id="fontSelect" onchange="format('FontSize');" style="font-size: 20px">
             <optgroup style="font-size: 20px">
@@ -50,6 +59,7 @@ include_once "header.php";
 
 </div>
 <div class="editor" id="editorText" contenteditable="true"></div>
+<button onclick="getHtml()">Generate RawHTML</button>
 
 <div>
     <h2>Paste into html description</h2>

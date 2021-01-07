@@ -2,6 +2,9 @@ function format(command, value) {
     if (command == 'FontSize'){
         value = document.getElementById("fontSelect").value;
     }
+    if (command == 'FontName'){
+        value = document.getElementById("fontName").value;
+    }
 
     document.execCommand(command, false, value);
 
