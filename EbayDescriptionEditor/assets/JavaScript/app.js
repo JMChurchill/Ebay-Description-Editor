@@ -1,6 +1,10 @@
 function format(command, value) {
     document.execCommand(command, false, value);
-    // alert("htmlOut");
+
+    if (command == "ForeColor"){
+        //change color select icon colour
+        document.getElementById('selectColour').style.color = value;
+    }
     getHtml();
 }
 
