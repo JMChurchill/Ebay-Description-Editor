@@ -62,7 +62,7 @@ include_once "header.php";
 <button onclick="getHtml()">Generate RawHTML</button>
 
 <div>
-    <h2>Paste into html description</h2>
+    <h2>Paste into RawHtml description</h2>
     <div class="editor" id="htmlOut"></div>
 </div>
 
