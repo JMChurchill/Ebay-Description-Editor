@@ -1,4 +1,8 @@
 function format(command, value) {
+    if (command == 'FontSize'){
+        value = document.getElementById("fontSelect").value;
+    }
+
     document.execCommand(command, false, value);
 
     if (command == "ForeColor"){
@@ -7,6 +11,8 @@ function format(command, value) {
     }
     getHtml();
 }
+
+
 
 function getHtml(){
     //gets html from editorText div
